@@ -1,0 +1,176 @@
+Pid es 1 
+Prioridad es 1 
+Tiempo de ejecucion es 5 
+Tiempo de viejo es 0 
+Pid es 2 
+Prioridad es 6 
+Tiempo de ejecucion es 6 
+Tiempo de viejo es 0 
+Pid es 3 
+Prioridad es 4 
+Tiempo de ejecucion es 7 
+Tiempo de viejo es 0 
+Pid es 4 
+Prioridad es 4 
+Tiempo de ejecucion es 4 
+Tiempo de viejo es 0 
+Pid es 5 
+Prioridad es 10 
+Tiempo de ejecucion es 9 
+Tiempo de viejo es 0 
+Pid es 6 
+Prioridad es 9 
+Tiempo de ejecucion es 8 
+Tiempo de viejo es 0 
+Pid es 7 
+Prioridad es 8 
+Tiempo de ejecucion es 9 
+Tiempo de viejo es 0 
+Pid es 8 
+Prioridad es 4 
+Tiempo de ejecucion es 4 
+Tiempo de viejo es 0 
+Pid es 9 
+Prioridad es 1 
+Tiempo de ejecucion es 9 
+Tiempo de viejo es 0 
+Pid es 10 
+Prioridad es 4 
+Tiempo de ejecucion es 2 
+Tiempo de viejo es 0 
+La Prioridad del proceso eleguido es 1 
+El proceso que regreso a la cola es el 1 
+La Prioridad del proceso eleguido es 1 
+El proceso que regreso a la cola es el 9 
+La Prioridad del proceso eleguido es 2 
+El proceso que regreso a la cola es el 1 
+La Prioridad del proceso eleguido es 2 
+El proceso que regreso a la cola es el 9 
+La Prioridad del proceso eleguido es 3 
+El proceso que regreso a la cola es el 1 
+La Prioridad del proceso eleguido es 3 
+El proceso que regreso a la cola es el 9 
+La Prioridad del proceso eleguido es 4 
+El proceso que regreso a la cola es el 1 
+La Prioridad del proceso eleguido es 4 
+El proceso que regreso a la cola es el 3 
+La Prioridad del proceso eleguido es 4 
+El proceso que regreso a la cola es el 4 
+La Prioridad del proceso eleguido es 4 
+El proceso que regreso a la cola es el 8 
+La Prioridad del proceso eleguido es 4 
+El proceso que regreso a la cola es el 9 
+La Prioridad del proceso eleguido es 4 
+El proceso que regreso a la cola es el 10 
+La Prioridad del proceso eleguido es 5 
+El proceso que regreso a la cola es el 1 
+La Prioridad del proceso eleguido es 5 
+El proceso que regreso a la cola es el 3 
+La Prioridad del proceso eleguido es 5 
+El proceso que regreso a la cola es el 4 
+La Prioridad del proceso eleguido es 5 
+El proceso que regreso a la cola es el 8 
+La Prioridad del proceso eleguido es 5 
+El proceso que regreso a la cola es el 9 
+La Prioridad del proceso eleguido es 5 
+El proceso que regreso a la cola es el 10 
+La Prioridad del proceso eleguido es 6 
+El proceso que regreso a la cola es el 1 
+La Prioridad del proceso eleguido es 6 
+El proceso que regreso a la cola es el 2 
+La Prioridad del proceso eleguido es 6 
+El proceso que regreso a la cola es el 3 
+La Prioridad del proceso eleguido es 6 
+El proceso que regreso a la cola es el 4 
+La Prioridad del proceso eleguido es 6 
+El proceso que regreso a la cola es el 8 
+La Prioridad del proceso eleguido es 6 
+El proceso que regreso a la cola es el 9 
+La Prioridad del proceso eleguido es 6 
+El proceso que regreso a la cola es el 10 
+La Prioridad del proceso eleguido es 7 
+El proceso que regreso a la cola es el 1 
+La Prioridad del proceso eleguido es 7 
+El proceso que regreso a la cola es el 2 
+La Prioridad del proceso eleguido es 7 
+El proceso que regreso a la cola es el 3 
+La Prioridad del proceso eleguido es 7 
+El proceso que regreso a la cola es el 4 
+La Prioridad del proceso eleguido es 7 
+El proceso que regreso a la cola es el 8 
+La Prioridad del proceso eleguido es 7 
+El proceso que regreso a la cola es el 9 
+La Prioridad del proceso eleguido es 7 
+El proceso que regreso a la cola es el 10 
+La Prioridad del proceso eleguido es 8 
+El proceso que regreso a la cola es el 1 
+La Prioridad del proceso eleguido es 8 
+El proceso que regreso a la cola es el 2 
+La Prioridad del proceso eleguido es 8 
+El proceso que regreso a la cola es el 3 
+La Prioridad del proceso eleguido es 8 
+El proceso que regreso a la cola es el 4 
+La Prioridad del proceso eleguido es 8 
+El proceso que regreso a la cola es el 7 
+La Prioridad del proceso eleguido es 8 
+El proceso que regreso a la cola es el 8 
+La Prioridad del proceso eleguido es 8 
+El proceso que regreso a la cola es el 9 
+La Prioridad del proceso eleguido es 8 
+El proceso que regreso a la cola es el 10 
+La Prioridad del proceso eleguido es 9 
+El proceso que regreso a la cola es el 1 
+La Prioridad del proceso eleguido es 9 
+El proceso que regreso a la cola es el 2 
+La Prioridad del proceso eleguido es 9 
+El proceso que regreso a la cola es el 3 
+La Prioridad del proceso eleguido es 9 
+El proceso que regreso a la cola es el 4 
+La Prioridad del proceso eleguido es 9 
+El proceso que regreso a la cola es el 6 
+La Prioridad del proceso eleguido es 9 
+El proceso que regreso a la cola es el 7 
+La Prioridad del proceso eleguido es 9 
+El proceso que regreso a la cola es el 8 
+La Prioridad del proceso eleguido es 9 
+El proceso que regreso a la cola es el 9 
+Pid es 1 
+Prioridad es 10 
+Tiempo de ejecucion es -1 
+Tiempo de viejo es 0 
+Pid es 2 
+Prioridad es 10 
+Tiempo de ejecucion es -1 
+Tiempo de viejo es 0 
+Pid es 3 
+Prioridad es 10 
+Tiempo de ejecucion es -1 
+Tiempo de viejo es 0 
+Pid es 4 
+Prioridad es 10 
+Tiempo de ejecucion es -1 
+Tiempo de viejo es 0 
+Pid es 5 
+Prioridad es 10 
+Tiempo de ejecucion es -1 
+Tiempo de viejo es 0 
+Pid es 6 
+Prioridad es 10 
+Tiempo de ejecucion es -1 
+Tiempo de viejo es 0 
+Pid es 7 
+Prioridad es 10 
+Tiempo de ejecucion es -1 
+Tiempo de viejo es 0 
+Pid es 8 
+Prioridad es 10 
+Tiempo de ejecucion es -1 
+Tiempo de viejo es 0 
+Pid es 9 
+Prioridad es 10 
+Tiempo de ejecucion es -1 
+Tiempo de viejo es 0 
+Pid es 10 
+Prioridad es 9 
+Tiempo de ejecucion es -1 
+Tiempo de viejo es 0 

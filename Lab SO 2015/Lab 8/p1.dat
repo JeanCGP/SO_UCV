@@ -1,0 +1,15 @@
+/*
+a1.dat
+
+The "a" collection of process data files is meant to simulate
+two processes competing for a single resource.  If you run
+the simulator with one resource available, one of the processes
+will block until the other is done using the resource.
+*/
+C 20    // compute for 10 milliseconds
+R 4     // request resource 0
+C 5    // compute for 10 milliseconds
+R 3
+C 5
+F 4     // free resource 0
+H       // halt process

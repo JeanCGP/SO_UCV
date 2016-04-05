@@ -1,0 +1,87 @@
+Jean Carlos Gomes
+V-19.162.619
+
+Laboratorio 2:
+
+
+*******************************************************
+**         1. Llamadas al Sistema:                   **
+*******************************************************
+
+A) Llamada al Sistema open( )
+int open(char* filename, int o_flag, int mode_t)
+La llamada al sistema open es el primer paso que debe realizarse cuando se desea acceder a un archivo. Esta llamada al sistema retorna un descriptor de archivo. Recibe los siguientes parametros:
+
+filename es un nombre absoluto o relativo.
+o_flag es un flag o un conjunto de flags unidos a través de OR. Los posibles flags son:
+
+ 
+O_RDONLY:     se abre el archivo solo para lectura
+O_WRONLY:    se abre el archivo unicamente para escritura.
+
+O_RDWR:          se abre para lectura y escritura.
+
+O_APPEND:      se abre el archivo y lo que se escriba se coloca al final. Por defecto, si no se utiliza este flag, el offset de un archivo se coloca en 0 con la llamada al sistema open. Con el append el offset se coloca al tamano del archivo.
+
+O_CREAT:         si el archivo no existe, lo crea.
+
+O_TRUNC:        si el archivo existe se trunca su longitud a cero.
+
+
+open retorna
+			0       Standard input
+			1 		Standard output
+			2 		Standard errore
+			3		Primer descriptor libre
+
+B) Llamada al Sistema read( )
+
+int read(int fd, char *buff, int count)
+
+Copia count bytes desde el archivo descrito por fd hasta buff. Los archivos se leen a partir del offset actual y este luego se actualiza. Read() trata de copiar count bytes y retorna el número de bytes copiados (si la llamada al sistema tiene éxito). Si se intenta leer después del último byte se retorna EOF. Si la llamada al sistema falla retorna 1.
+
+C) Llamada al Sistema write( )
+
+int write(int fd, char *buf, int count)
+
+Copia count bytes desde el buffer al archivo referenciado por fd. Los bytes se escriben a partir del offset actual. Write retorna el número de bytes que copia. El proceso debe siempre chequear el valor de retorno, si éste es menor que count es posible que no haya espacio en disco. Si write no tiene éxito la llamada al sistema retorna 1. 
+
+D) Llamada al Sistema lseek( )
+
+long lseek(int fd, long offset, int mode)
+
+Esta llamada al sistema permite cambiar el offset del archivo. mode indica como el offset debe ser interpretado:
+I_SET: el offset es relativo al comienzo del archivo 
+I_CUR: offset relativo a la posicion actual 
+I_END: offset relativo al final.
+
+
+*******************************************************
+**           2. Manejo de errores                    **
+*******************************************************
+
+La rutina perror () produce un mensaje en la salida de error estándar, que describe el último error encontrado durante una llamada a una función del sistema o en la biblioteca. En primer lugar (si s no es NULL y * s no es NULL) el argumento de cadena s se imprime, seguido de dos puntos y un espacio en blanco. A continuación, el mensaje y una nueva línea.
+Para ser de mayor utilidad, la cadena argumento debe incluir el nombre de la función que incurrió en el error. El número de error se toma de la variable externa errno, que se establece cuando se producen errores, pero no borra cuando se realizan llamadas no erróneas.
+
+errno.h es un archivo de cabecera en la biblioteca estándar del lenguaje de programación C. En ella se definen las macros que presentan un informe de error a través de códigos de error.
+
+La macro errno se expande a un lvalue con tipo int, que contiene el último código de error generado en cualquiera de las funciones utilizando la instalación de errno.
+
+
+
+*******************************************************
+**           3. Defina:                              **
+*******************************************************
+
+A) Sticky bit: El sticky bit es un permiso de acceso que puede ser asignado a ficheros y directorios en sistemas Unix.
+El sticky bit se utilizaba en ficheros ejecutables. Cuando se asignaba, le indicaba al sistema operativo (SO) que mantuviera el programa en swap para ejecuciones posteriores (incluso de otros usuarios). Desde entonces el rendimiento de las tecnologías de almacenamiento persistente han mejorado mucho y este uso ha quedado obsoleto.
+
+Un ejemplo para usar y activar el sticky bit es utilizando el comando:  # chmod +t /directorio
+y para desactivarlo seria: chmod -t /directorio
+
+B) SUID:  Es un permiso de acceso que puede ser asigando a ficheros y directorios, viene de la abreviaturas para "Set User ID", respectivamente. Setuid, también llamado a veces "suid", y "setgid" son permisos de acceso que pueden asignarse a archivos o directorios en un sistema operativo basado en Unix. Se utilizan principalmente para permitir a los usuarios del sistema ejecutar binarios con privilegios elevados temporalmente para realizar una tarea específica.
+Un ejemplo para usarlo seria: chmod +s /directorio
+
+C) SGID: Funciona igual que SUID, la unica difernecia es que trabaja en grupos, es decir, es un (extencion de SID) que asigna los permisos de los archivos de Unix para archivos o directorios del Unix, en los que se establece este bit, el iniciado sesión de usuario con los privilegios del grupo llevó a cabo la parte del archivo, en lugar de los derechos del grupo que ejecuta el archivo.
+
+Un ejemplo para usarlo seria: chmod g+s /directorio

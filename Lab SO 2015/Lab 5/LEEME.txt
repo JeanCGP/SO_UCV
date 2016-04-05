@@ -1,0 +1,16 @@
+El enunciado 5, esta muy enredado, de igual forma, tratamos de hacerlo...
+Olvidando el enredo de enunciado y segun lo que entendimos de las aclaratorias, realizamos esta soluccion
+
+Compilar:
+	gcc -o encriptador encriptar.c -lpthread
+	gcc -o desencriptador encriptar.c -lpthread
+
+ejecutar:
+	./encriptador -e<Num_Hilos_encriptadores> -d <Num_Hilos_Desencriptadores> -m <archivo_mensaje> -f <archivo_diccionario>
+	./desencriptador -e<Num_Hilos_encriptadores> -d <Num_Hilos_Desencriptadores> -m <archivo_mensaje> -f <archivo_diccionario>
+
+El N, que es el desplazamiento, se tiene que modificar dentro del enunciado, ya que segun el enunciado, NO se pasa por parametro
+
+Prueba: 
+	./encriptador -e 5 -d 4 -m entrada.txt -f salida1.txt
+	./desencriptador -e 5 -d 4 -m salida1.txt -f salida2.txt

@@ -1,0 +1,9 @@
+Ejercicio 1:
+Usted dispone de dos formas para ejecutar el ejercicio 1
+	Forma 1: Por Teclado (Siguiendo instrucciones)
+	Forma 2: ./NombreEjecutable <test001_ejercicio1.in
+Ejercicio 2:
+Se asume que la entrada esta validada, es decir, el numero de argumentos tiene
+que ser menor a la cantidad de palabras
+	ejemplo: ./NombreEjecutable a b c  Hola Mundo ! 
+		N Argumentos <= N palabras de lo contrario ERROR.
