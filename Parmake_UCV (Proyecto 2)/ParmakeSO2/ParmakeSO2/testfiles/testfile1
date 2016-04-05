@@ -1,0 +1,15 @@
+g: f f f f f e d c b a
+	uname
+f: e d c b a
+	nano abcd
+e: d c b a
+	od /bin/ls > ls_octdump
+d: c b a
+	pwd
+c: b a
+	cd
+	ls -li
+b: a
+	gcc
+a:
+	echo "a"
